@@ -10,7 +10,7 @@ This is a python package that is compatible with django to create real-time noti
 ## Installation
 
 ```
-git clone https://github.com/RadwanHegazy/dj-notificaiton
+git clone https://github.com/RadwanHegazy/dj_notificaiton
 ```
 ```
 pip install -r dj_notification/dj_notification_requirements.txt 
@@ -113,5 +113,12 @@ urlpatterns = [
 ]
 
 ```
+
+## notificaiotn websocket endpoint
+
+```
+ws://127.0.0.1:8000/ws/notification/?token=<JWT_ACCESS_TOKEN>
+```
+NOTE: change sheme name from 'ws' to 'wss' on production
 
 # This is all about the package and you can depend on this package in your projects to implement real-time notification to your systems.
