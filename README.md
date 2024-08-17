@@ -114,7 +114,7 @@ urlpatterns = [
 
 ```
 
-## notificaiotn websocket endpoint
+## notification websocket endpoint
 
 ```
 ws://127.0.0.1:8000/ws/notification/?token=<JWT_ACCESS_TOKEN>
