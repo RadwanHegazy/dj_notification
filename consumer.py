@@ -11,7 +11,7 @@ class NotificationConsumer (WebsocketConsumer) :
 
         if self.user.is_anonymous:
             self.close()
-            raise
+            return
         
 
         self.GROUP_NAME = f'notification__{self.user.id}'
